@@ -14,3 +14,6 @@ jobs:
       - run:
           name: Show all files in directory
           command: dir
+      - run:
+          name: run the script
+          command: node hello.js
